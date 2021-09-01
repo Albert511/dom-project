@@ -1,9 +1,9 @@
-package com.dom.frank.common.sort;
+package com.dom.sort;
 
 /**
  * @description: 排序算法
  * @author: Dom Frank
- * @create: 2021/09/01 09:51
+ * @create: 2021/09/01 10:56
  */
 public class SortSelector {
 

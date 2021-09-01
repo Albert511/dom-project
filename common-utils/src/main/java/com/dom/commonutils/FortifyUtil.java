@@ -1,4 +1,4 @@
-package com.dom.frank.common.utils;
+package com.dom.commonutils;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -8,9 +8,9 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 /**
- * @description: 过滤敏感信息
+ * @description: 安全过滤工具类
  * @author: Dom Frank
- * @create: 2021/09/01 09:52
+ * @create: 2021/09/01 10:50
  */
 public class FortifyUtil {
 
@@ -68,4 +68,7 @@ public class FortifyUtil {
         return "";
     }
 
+    public static void main(String[] args) {
+        LOG.info("这是个日志");
+    }
 }

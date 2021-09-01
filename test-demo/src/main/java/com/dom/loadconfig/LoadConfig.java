@@ -1,6 +1,10 @@
-package com.dom.frank.common;
+package com.dom.loadconfig;
 
-import java.io.*;
+import java.io.BufferedInputStream;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.Enumeration;
@@ -8,9 +12,9 @@ import java.util.List;
 import java.util.Properties;
 
 /**
- * @description: 加载配置信息
+ * @description: 加载配置
  * @author: Dom Frank
- * @create: 2021/09/01 09:41
+ * @create: 2021/09/01 10:57
  */
 public class LoadConfig {
 

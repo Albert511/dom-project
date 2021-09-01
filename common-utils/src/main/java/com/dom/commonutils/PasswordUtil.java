@@ -1,4 +1,4 @@
-package com.dom.frank.common.utils;
+package com.dom.commonutils;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * @description: 密码工具类
  * @author: Dom Frank
- * @create: 2021/09/01 09:55
+ * @create: 2021/09/01 10:52
  */
 public class PasswordUtil {
 

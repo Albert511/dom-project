@@ -11,5 +11,19 @@
 
     <artifactId>common-utils</artifactId>
 
+    <dependencies>
+        <!--        <dependency>-->
+        <!--            <groupId>QRCode</groupId>-->
+        <!--            <artifactId>QRCode</artifactId>-->
+        <!--            <version>3.0.0</version>-->
+        <!--        </dependency>-->
+
+        <!-- 谷歌公司编写二维码的依赖-->
+        <dependency>
+            <groupId>com.google.zxing</groupId>
+            <artifactId>core</artifactId>
+            <version>3.3.0</version>
+        </dependency>
+    </dependencies>
 
 </project>

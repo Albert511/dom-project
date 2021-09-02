@@ -123,7 +123,7 @@ public class QRCodeUtil {
     public static void encode(String content, String imgPath, String destPath) throws Exception {
         QRCodeUtil.encode(content, imgPath, destPath, false);
     }
-    // 被注释的方法
+    // 被注释的方法 随机命名方法
     /*
      * public static void encode(String content, String destPath, boolean
      * needCompress) throws Exception { QRCodeUtil.encode(content, null, destPath,

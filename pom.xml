@@ -9,6 +9,7 @@
         <version>2.5.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
     <groupId>com.dom</groupId>
     <artifactId>frank</artifactId>
     <version>0.0.1-SNAPSHOT</version>
@@ -21,6 +22,7 @@
     <modules>
         <module>common-utils</module>
         <module>test-demo</module>
+        <module>jarvis-log</module>
     </modules>
 
     <dependencies>
